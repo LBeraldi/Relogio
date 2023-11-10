@@ -30,24 +30,18 @@ const relogio = setInterval(function time(){
 
 })
 
-// Função para verificar se é noite
 function isNight() {
     const now = new Date();
     const hours = now.getHours();
-    return hours < 6 || hours >= 18; // Você pode ajustar esses valores conforme necessário
+    return hours < 6 || hours >= 18; 
 }
 
-// Função para alternar entre os temas
 function toggleTheme() {
     const body = document.body;
     body.classList.toggle('dark', isNight());
     relogio.classList.toggle('dark', isNight());
     dia.classList.toggle('dark', isNight());
 }
-
-// Verifique e altere o tema na carga da página
 document.addEventListener('DOMContentLoaded', toggleTheme);
 
-// Adicione um ouvinte de evento para alterar o tema quando necessário
-// Este exemplo verifica a cada hora, você pode ajustar conforme necessário
-setInterval(toggleTheme, 60 * 60 * 1000); // Verificar a cada hora
+setInterval(toggleTheme, 60 * 60 * 1000); 
