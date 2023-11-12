@@ -30,6 +30,8 @@ const relogio = setInterval(function time(){
 
 })
 
+//Funcao para mudar o temo ao anoitecer.
+
 function isNight() {
     const now = new Date();
     const hours = now.getHours();
@@ -39,8 +41,6 @@ function isNight() {
 function toggleTheme() {
     const body = document.body;
     body.classList.toggle('dark', isNight());
-    relogio.classList.toggle('dark', isNight());
-    dia.classList.toggle('dark', isNight());
 }
 document.addEventListener('DOMContentLoaded', toggleTheme);
 

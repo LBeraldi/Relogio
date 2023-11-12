@@ -50,8 +50,7 @@ body.dark{
     border-radius: 7px;
     letter-spacing: 3px;    
 }
-
-.dia.dark{
+body.dark .dia span{
     background: #fff;
     color: black;
 }
@@ -62,9 +61,7 @@ body.dark{
     justify-content: space-around;
     height: 200px;
     width: 550px;
-    background: transparent;
-    border-radius: 3px;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+
 }
 
 .relogio div{
@@ -81,7 +78,7 @@ body.dark{
     letter-spacing: 3px;    
 }
 
-.relogio.dark{
+body.dark .relogio div{
     background: #fff;
     color: black;
 }
