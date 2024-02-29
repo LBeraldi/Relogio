@@ -26,6 +26,5 @@ Se você encontrar problemas no código ou tiver sugestões de melhorias, sinta-
 
 ## Me siga em minhas redes sociais:  
 
-- [Github](https://github.com/LBeraldi)
-- [Instagram](https://www.instagram.com/lucas.beraldii/)
-- [Linkdin](https://www.linkedin.com/in/lucas-beraldi-b632a614b/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/lucas.beraldii/)  
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-beraldi-b632a614b/)
